@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Clicker+Script&family=Montserrat:wght@300;400;500;600;700&display=swap");
+
+body {
+    text-align: center;
+    background: url("../src/bg.jpg");
+    color: white;
+    font-family: "Montserrat", sans-serif;
+}
+
+.image {
+    width: 220px;
+    height: 220px;
+    margin-top: 50px;
+    margin-bottom: 5px;
+}
+
+h1 {
+    font-size: 30px;
+    margin-bottom: 3px;
+	font-weight: 700;
+}
+
+h2 {
+	font-size: 22px;
+	font-weight: normal;
+	margin-bottom: 15px;
+}
+
+.icon {
+	width: 18px;
+	padding: 3px 10px 5px 15px;
+}
+
+.link {
+	color: white;
+	font-weight: 500;
+	text-decoration: none;
+	display: inline-flex;
+	justify-content: start;
+	align-items: center;
+	width: 200px;
+	height: 35px;
+	border-radius: 8px;
+	background-color: rgba(150, 150, 150, 0.2);
+	line-height: 35px;
+	margin-bottom: 10px;
+	cursor: pointer;
+	transition: 0.3s all ease-in-out;
+	transform-origin: 50% 50% 50%;
+	backface-visibility: hidden;
+}
+
+.link:hover {
+	transform: perspective(1px) scale(1.1);
+	background-color: rgba(150, 150, 150, 0.3);
+}
+
+@media screen and (max-width: 480px) {
+	.image {
+		width: 150px;
+		height: 150px;
+		margin-top: 80px;
+		margin-bottom: 5px;
+	}
+	
+	h1 {
+		font-size: 25px;
+		margin-bottom: 3px;
+		font-weight: 700;
+	}
+
+	h2 {
+		font-size: 18px;
+		font-weight: normal;
+		margin-bottom: 15px;
+	}
+	
+}
