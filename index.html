@@ -2,26 +2,58 @@
 <html lang="pt-br">
 	<head>
 		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="viewport" content="width=device-width">
 		<title>Links | Luan Schappo </title>
 		<link rel="shortcut icon" href="src/favicon.ico">
 		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/style.css">
 	</head>
 	<body>
-		<div>
-			<img class="image" src="src/profile.png">
-			<h1>Luan da Rosa Schappo</h1>
-			<h2>Software Engineer</h2>
-			<a class="link" href="http://api.whatsapp.com/send?1=pt_BR&phone=47999907407"><img class="icon"src="src/logo-whatsapp.svg"> Fale comigo</a>
-			<br>
-			<a class="link" href="https://www.linkedin.com/in/luan-schappo/"><img class="icon" src="src/logo-linkedin.svg"> LinkedIn</a>
-			<br>
-			<a class="link" href="https://www.github.com/chapeux"><img class="icon" src="src/logo-github.svg"> GitHub</a>
-			<br>
-			<a class="link" href="https://cursos.alura.com.br/user/luandalfor/fullCertificate/8c68edf74b1f2489b3bc5c0884d32632"><img class="icon" src="src/certificado.svg"> Certificados</a>
-			<br>
-			<a class="link" href="mailto:luanrosa.schappo@hotmail.com"><img class="icon" src="src/email.svg"> Envie um email</a>
-		</div>
+		<header>
+			<div>
+				<img class="image" src="src/profile.PNG">
+				<br><h1>Luan da Rosa Schappo</h1>
+			</div>
+		</header>
+		<main>
+			<div class="box">
+				<h2><span class="auto-type"></span></h2>
+				<div class="wrapper">
+					<div class="collapsible">
+						<input type="checkbox" id="collapsible-head">
+						<label for="collapsible-head">Sobre mim</label>
+						<div class="collapsible-text">
+							<p>
+								Estudante de Engenharia de Software pela Uninter 2021 - 2025. <br>
+								<br> Trabalho na multinacional WEG, no setor de energia solar. <br> 
+								<br> Desenvolvo melhorias através da programação em VB para o sistema SAP. 
+								<br><a href="https://www.linkedin.com/in/luan-schappo/" target="_blank" id="saiba-mais">Saiba mais acessando o LinkedIn</a>
+							</p>
+						</div>
+					</div>
+				</div>
+				<a class="link" href="http://api.whatsapp.com/send?1=pt_BR&phone=47999907407" target="_blank"><img class="icon"src="src/logo-whatsapp.svg"> Fale comigo</a>
+				<br>
+				<a class="link" href="https://www.linkedin.com/in/luan-schappo/" target="_blank"><img class="icon" src="src/logo-linkedin.svg"> LinkedIn</a>
+				<br>
+				<a class="link" href="https://www.github.com/chapeux" target="_blank"><img class="icon" src="src/logo-github.svg"> GitHub</a>
+				<br>
+				<a class="link" href="https://cursos.alura.com.br/user/luandalfor/fullCertificate/8c68edf74b1f2489b3bc5c0884d32632" target="_blank"><img class="icon" src="src/certificado.svg"> Certificados</a>
+				<br>
+				<a class="link" href="mailto:luanrosa.schappo@hotmail.com" target="_blank"><img class="icon" src="src/email.svg"> Envie um email</a>
+			</div>
+		</main>
+		<footer>
+			<p class="foot">Luan (Chapeux) Schappo - 2022</p>
+		</footer>
+		<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+		<script>
+			var typed = new Typed(".auto-type", {
+				strings: ["Software Engineer", "Front-end Dev", "Graphic Designer"],
+				typeSpeed: 70,
+				backSpeed: 50,
+				loop: true
+			})
+		</script>
 	</body>
 </html>
