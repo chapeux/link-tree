@@ -15,5 +15,6 @@ Projeto pessoal realizado para a criação de um link-tree (página com links e 
 
 Projeto foi realizado com o objetivo de consolidar e aperfeiçoar minhas habilidades em HTML e CSS, também utilizei JavaScript para o efeito de Typing.
 
-O design do site foi feito por mim e inspirado no criador de links de perfis [beacons.ai](https://beacons.ai/). 
+O design do site foi feito por mim e inspirado no criador de links de perfis [beacons.ai](https://beacons.ai/).
+
 A imagem ilustrada foi feita pela ilustradora [Tipo um rabisco](https://www.instagram.com/tipoumrabisco/).
